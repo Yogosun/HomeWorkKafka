@@ -1,0 +1,317 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\psb\\homeworkAA\\HomeworkAA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|D:\\psb\\homeworkAA\\HomeworkAA\\homeworkaa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|d:\\psb\\homeworkaa\\homeworkaa\\homeworkaa\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|D:\\psb\\homeworkAA\\HomeworkAA\\homeworkaa\\menus\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\menus\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|d:\\psb\\homeworkaa\\homeworkaa\\homeworkaa\\menus\\food\\salad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\menus\\food\\salad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|d:\\psb\\homeworkaa\\homeworkaa\\homeworkaa\\menus\\food\\pasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\menus\\food\\pasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|d:\\psb\\homeworkaa\\homeworkaa\\homeworkaa\\menus\\food\\sushi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\menus\\food\\sushi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|d:\\psb\\homeworkaa\\homeworkaa\\homeworkaa\\menus\\food\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\menus\\food\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|d:\\psb\\homeworkaa\\homeworkaa\\homeworkaa\\menus\\food\\burger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\menus\\food\\burger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|D:\\psb\\homeworkAA\\HomeworkAA\\homeworkaa\\entity\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\entity\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|D:\\psb\\homeworkAA\\HomeworkAA\\homeworkaa\\baskets\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\baskets\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|D:\\psb\\homeworkAA\\HomeworkAA\\homeworkaa\\order\\orderprocessingsimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\order\\orderprocessingsimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|D:\\psb\\homeworkAA\\HomeworkAA\\homeworkaa\\order\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\order\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|D:\\psb\\homeworkAA\\HomeworkAA\\homeworkaa\\entity\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\entity\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|D:\\psb\\homeworkAA\\HomeworkAA\\homeworkaa\\events\\storage\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\events\\storage\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|D:\\psb\\homeworkAA\\HomeworkAA\\homeworkaa\\events\\basket\\itemaddedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\events\\basket\\itemaddedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|D:\\psb\\homeworkAA\\HomeworkAA\\homeworkaa\\events\\basket\\itemremovedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\events\\basket\\itemremovedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|D:\\psb\\homeworkAA\\HomeworkAA\\homeworkaa\\events\\order\\orderstatuschangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\events\\order\\orderstatuschangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|D:\\psb\\homeworkAA\\HomeworkAA\\homeworkaa\\events\\basket\\basketevent .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCEBBED-C186-4759-9201-53C3054C45EB}|HomeworkAA\\HomeworkAA.csproj|solutionrelative:homeworkaa\\events\\basket\\basketevent .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Salad.cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Menus\\Food\\Salad.cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Menus\\Food\\Salad.cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Menus\\Food\\Salad.cs",
+              "RelativeToolTip": "HomeworkAA\\Menus\\Food\\Salad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:29:19.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pasta.cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Menus\\Food\\Pasta.cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Menus\\Food\\Pasta.cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Menus\\Food\\Pasta.cs",
+              "RelativeToolTip": "HomeworkAA\\Menus\\Food\\Pasta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:28:49.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sushi.cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Menus\\Food\\Sushi.cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Menus\\Food\\Sushi.cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Menus\\Food\\Sushi.cs",
+              "RelativeToolTip": "HomeworkAA\\Menus\\Food\\Sushi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:28:19.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Burger.cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Menus\\Food\\Burger.cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Menus\\Food\\Burger.cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Menus\\Food\\Burger.cs",
+              "RelativeToolTip": "HomeworkAA\\Menus\\Food\\Burger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:27:02.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pizza.cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Menus\\Food\\Pizza.cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Menus\\Food\\Pizza.cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Menus\\Food\\Pizza.cs",
+              "RelativeToolTip": "HomeworkAA\\Menus\\Food\\Pizza.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:20:34.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Order\\OrderService.cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Order\\OrderService.cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Order\\OrderService.cs",
+              "RelativeToolTip": "HomeworkAA\\Order\\OrderService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T09:02:33.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BasketEvent .cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Events\\Basket\\BasketEvent .cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Events\\Basket\\BasketEvent .cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Events\\Basket\\BasketEvent .cs",
+              "RelativeToolTip": "HomeworkAA\\Events\\Basket\\BasketEvent .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T08:41:55.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Program.cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Program.cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Program.cs",
+              "RelativeToolTip": "HomeworkAA\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T08:16:10.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderProcessingSimulator.cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Order\\OrderProcessingSimulator.cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Order\\OrderProcessingSimulator.cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Order\\OrderProcessingSimulator.cs",
+              "RelativeToolTip": "HomeworkAA\\Order\\OrderProcessingSimulator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T09:16:39.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Order\\Order.cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Order\\Order.cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Order\\Order.cs",
+              "RelativeToolTip": "HomeworkAA\\Order\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T09:00:39.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Entity\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Entity\\OrderStatus.cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Entity\\OrderStatus.cs",
+              "RelativeToolTip": "HomeworkAA\\Entity\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T08:40:18.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Menus\\Menu.cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Menus\\Menu.cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Menus\\Menu.cs",
+              "RelativeToolTip": "HomeworkAA\\Menus\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T10:00:56.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ItemAddedEvent.cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Events\\Basket\\ItemAddedEvent.cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Events\\Basket\\ItemAddedEvent.cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Events\\Basket\\ItemAddedEvent.cs",
+              "RelativeToolTip": "HomeworkAA\\Events\\Basket\\ItemAddedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T08:42:32.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Basket.cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Baskets\\Basket.cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Baskets\\Basket.cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Baskets\\Basket.cs",
+              "RelativeToolTip": "HomeworkAA\\Baskets\\Basket.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T09:01:20.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Entity\\MenuItem.cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Entity\\MenuItem.cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Entity\\MenuItem.cs",
+              "RelativeToolTip": "HomeworkAA\\Entity\\MenuItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T09:59:15.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ItemRemovedEvent.cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Events\\Basket\\ItemRemovedEvent.cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Events\\Basket\\ItemRemovedEvent.cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Events\\Basket\\ItemRemovedEvent.cs",
+              "RelativeToolTip": "HomeworkAA\\Events\\Basket\\ItemRemovedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T08:45:23.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EventStore.cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Events\\Storage\\EventStore.cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Events\\Storage\\EventStore.cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Events\\Storage\\EventStore.cs",
+              "RelativeToolTip": "HomeworkAA\\Events\\Storage\\EventStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T08:56:44.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderStatusChangedEvent.cs",
+              "DocumentMoniker": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Events\\Order\\OrderStatusChangedEvent.cs",
+              "RelativeDocumentMoniker": "HomeworkAA\\Events\\Order\\OrderStatusChangedEvent.cs",
+              "ToolTip": "D:\\psb\\homeworkAA\\HomeworkAA\\HomeworkAA\\Events\\Order\\OrderStatusChangedEvent.cs",
+              "RelativeToolTip": "HomeworkAA\\Events\\Order\\OrderStatusChangedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T08:51:00.144Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
