@@ -1,0 +1,32 @@
+{
+  "namespace": "HomeworkAA.OrderKafkaAvro",
+
+  "type": "record",
+  "name": "OrderKafka",
+  "fields": [
+    {
+      "name": "OrderId",
+      "type": "string"
+    },
+    {
+      "name": "CustomerName",
+      "type": "string"
+    },
+    {
+      "name": "Items",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    },
+    {
+      "name": "TotalAmount",
+      "type": "double"
+    },
+    {
+      "name": "ReceivedTimestamp",
+      "type": [ "null", "string" ],
+      "default": null
+    }
+  ]
+}

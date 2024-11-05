@@ -24,5 +24,10 @@ namespace HomeworkAA.Menus
         {
             return Items.Find(item => item.Id == id);
         }
+
+        public MenuItem GetMenuItemByName(string Name)
+        {
+            return Items.Find(item => item.Name == Name);
+        }
     }
 }

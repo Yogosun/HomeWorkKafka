@@ -6,6 +6,15 @@ namespace HomeworkAA
 {
     using HomeworkAA.Menus;
     using System;
+    using System.IO;
+    using System.Threading;
+    using Avro.IO;
+    using Avro.Specific;
+    using Confluent.Kafka;
+    using HomeworkAA.OrderKafkaAvro;
+    using Confluent.SchemaRegistry;
+    using Confluent.SchemaRegistry.Serdes;
+    using Confluent.Kafka.SyncOverAsync;
 
     class Program
     {
@@ -16,31 +25,47 @@ namespace HomeworkAA
             var basket = new Basket();
             var menu = new Menu();
 
-            while (true)
+            // Конфигурация Consumer для чтения сообщений из Kafka
+            var consumerConfig = new ConsumerConfig
             {
-                Console.WriteLine("1. Показать меню и добавить блюдо в корзину");
-                Console.WriteLine("2. Удалить блюдо из корзины");
-                Console.WriteLine("3. Посчитать стоимость корзины");
-                Console.WriteLine("4. Создать заказ");
-                Console.WriteLine("5. Проверить статус заказа");
-                Console.WriteLine("6. Вывести список всех заказов");
-                Console.WriteLine("7. Выйти");
+                GroupId = "user-consumer-group",  // Уникальная группа потребителей
+                BootstrapServers = "localhost:9092",  // Адрес Kafka брокера
+                AutoOffsetReset = AutoOffsetReset.Earliest,  // Начало чтения с самого раннего сообщения
+                EnableAutoCommit = false  // Отключаем автоматическое коммитирование смещений
+            };
 
-                var choice = Console.ReadLine();
+            // Создание Consumer для получения сообщений
+            var consumer = new ConsumerBuilder<Ignore, byte[]>(consumerConfig).Build();
 
-                switch (choice)
+            consumer.Subscribe("orders");  // Подписка на топик
+
+            var cancellationToken = new CancellationTokenSource();
+
+            Console.CancelKeyPress += (_, e) =>
+            {
+                e.Cancel = true; // Завершение при нажатии Ctrl+C
+                cancellationToken.Cancel();
+            };
+
+            Console.WriteLine("Waiting for messages...");
+            try
+            {
+
+                while (!cancellationToken.Token.IsCancellationRequested)
                 {
-                    case "1":
-                        Console.WriteLine("Меню:");
-                        foreach (var item in menu.Items)
-                        {
-                            Console.WriteLine($"{item.Id}. {item}"); // Выводим ID, название и цену
-                        }
+                    try
+                    {
+                        var consumeResult = consumer.Consume(cancellationToken.Token);
+                        var order = DeserializeAvroMessage(consumeResult.Message.Value);
+                        DateTime.TryParse(order.ReceivedTimestamp, out DateTime sendTimestamp);
+                        // Обработка заказа
+                        Console.WriteLine($"Processing order: {order.OrderId}, Customer: {order.CustomerName}, Total: {order.TotalAmount}, SentTimestamp: {sendTimestamp}, ReceivedTimestamp {DateTime.UtcNow}");
 
-                        Console.Write("Введите номер блюда для добавления в корзину: ");
-                        if (int.TryParse(Console.ReadLine(), out int itemId))
+                        foreach (var item in order.Items)
                         {
-                            var menuItem = menu.GetMenuItemById(itemId);
+                            Console.WriteLine($"{item}"); // Выводим название
+
+                            var menuItem = menu.GetMenuItemByName(item);
                             if (menuItem != null)
                             {
                                 orderService.AddItemToBasket(basket, menuItem);
@@ -51,59 +76,49 @@ namespace HomeworkAA
                                 Console.WriteLine("Блюдо с таким номером не найдено.");
                             }
                         }
-                        else
-                        {
-                            Console.WriteLine("Неверный ввод.");
-                        }
-                        break;
 
-                    case "2":
-                        Console.Write("Введите название блюда для удаления из корзины: ");
-                        var itemName = Console.ReadLine();
-                        orderService.RemoveItemFromBasket(basket, itemName);
-                        Console.WriteLine($"Блюдо {itemName} удалено из корзины.");
-                        break;
-
-                    case "3":
                         Console.WriteLine($"Стоимость корзины: {basket.CalculateTotal()} руб.");
-                        break;
 
-                    case "4":
                         var orderId = orderService.CreateOrder(basket);
                         Console.WriteLine($"Заказ {orderId} создан");
                         var simulator = new OrderProcessingSimulator(orderService, orderId);
                         simulator.Start();
-                        break;
 
-                    case "5":
-                        Console.Write("Введите ID заказа: ");
-                        if (int.TryParse(Console.ReadLine(), out orderId))
-                        {
-                            var status = orderService.GetOrderStatus(orderId);
-                            Console.WriteLine(status.HasValue ? $"Статус заказа {orderId}: {status}" : "Заказ не найден");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Неверный ввод.");
-                        }
-                        break;
-
-                    case "6":
-                        foreach (var order in orderService.ListOrders())
-                        {
-                            Console.WriteLine($"Заказ {order.OrderId}: {order.Status}");
-                        }
-                        break;
-
-                    case "7":
-                        return;
-
-                    default:
-                        Console.WriteLine("Неверный выбор");
-                        break;
+                        // Ручное подтверждение обработки сообщения
+                        consumer.Commit(consumeResult);
+                    }
+                    catch (ConsumeException e)
+                    {
+                        Console.WriteLine($"Error consuming message: {e.Error.Reason}");
+                    }
                 }
+            }
+
+            catch (OperationCanceledException)
+            {
+                Console.WriteLine("Consumer stopped.");
+            }
+            finally
+            {
+                consumer.Close();
             }
         }
 
+        // Метод для десериализации Avro-сообщения
+        static OrderKafka DeserializeAvroMessage(byte[] avroData)
+        {
+            // Определяем схему User
+            var orderSchema = OrderKafka._SCHEMA;
+
+            // Десериализация Avro-сообщения из двоичных данных
+            using (var stream = new MemoryStream(avroData))
+            {
+                var reader = new BinaryDecoder(stream);
+                var datumReader = new SpecificDatumReader<OrderKafka>(orderSchema, orderSchema);
+
+                // Чтение и десериализация данных
+                return datumReader.Read(null, reader);
+            }
+        }
     }
 }
